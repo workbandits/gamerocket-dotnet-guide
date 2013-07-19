@@ -1,0 +1,8 @@
+﻿@if (ViewData.ContainsKey("PlayerId"))
+{
+    <h2>Success! Player ID: @ViewData["PlayerId"]</h2>
+}
+else
+{
+    <h2>Error: @ViewData["Message"]</h2>
+}
